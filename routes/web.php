@@ -14,3 +14,4 @@
 */
 
 $router->get('/reviews', 'ReviewsController@index');
+$router->post('/register', 'AuthController@register');
